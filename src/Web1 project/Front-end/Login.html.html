@@ -13,15 +13,15 @@
       </menu>
     </div>
     <div class="Banner">
-      <img href ="https://th.bing.com/th/id/OIP.1Vz1yI2rB1gIDLFmSC-9xAHaGq?rs=1&pid=ImgDetMain" altr ="Ashesi logo">
+      <img href ="https://th.bing.com/th/id/OIP.1Vz1yI2rB1gIDLFmSC-9xAHaGq?rs=1&pid=ImgDetMain" alt ="Ashesi logo" >
       <h1>Ashesi Shuttle System</h1>
     </div>
 
     <div>
       <ul>
-        <li>Home</li>
-        <li>ASHESI University</li>
-        <li>About Us</li>
+        <a href="index.html"><li>Home</li></a>
+        <a href="https://ashesi.edu.gh/"><li>ASHESI University</li></a>
+        <a href="AboutUs.html"><li>About Us</li></a>
       </ul>
     </div>
 
@@ -29,6 +29,16 @@
       <a>User interactions</a>
     </div>
   </nav>
+
+  <div class="LoginForm">
+    <form action="/submit_form" method="post">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
 
 </body>
 </html>
