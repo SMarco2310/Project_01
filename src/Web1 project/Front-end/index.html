@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>Hello World</title>
-    <link rel="icon" type="image/png" href="Hello_Icone.png">
+    <link rel="icon" type="image/png" href="Ashesi 3.png">
     <!-- <link rel="apple-touch-icon" type="image/png"> -->
      <style>
         body {
             font-family:'Courier New', Courier, monospace;
             height: 100vh;
-            background-color: #252323;
-            color:aliceblue;
+            background-color: #fefefe;
+            color:rgb(4, 4, 4);
         }
 
-        h1 {
+        h1.welcome-message{
             text-align: center;
             padding: 20px;
             font-size: 3em;
             margin-bottom: 20px;
         }
+        ul.welcome li {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        
 
     </style>
 </head>
@@ -32,14 +40,18 @@
     
     <div id="header">
         <nav class="navbar">
-            <div class="banner">
-                <!--put a logo here-->
-            </div>
-            <div class="container1">
-                <ul>
+            <div class="Banner">
+                <img src ="Ashesi 3.png" alt ="Ashesi logo" width="90" height="90">
+                <h1 class="logo-side">Ashesi Shuttle System</h1>
+              </div>
+              <div class="container1" style="display: flex-box;">
+                <ul class ="welcome" style="display: flex;">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="SignUp.html">Sign Up</a></li>
                     <li><a href="Login.html">Login</a></li>
                     <li><a href="UserProfile.html">User Profile</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+
                 </ul>
             </div>
             <div class="hamburger">
@@ -52,7 +64,7 @@
     </div>
 <section id="welcome">
     <div class="welcome">
-        <h2>Welcome to Ashesi Shuttle Service!</h2> 
+        <h2 class="welcome-message">Welcome to Ashesi Shuttle Service!</h2> 
         <p>Your Reliable Partner for Smooth, Safe, and Efficient Campus Commutes  </p>
     </div>
 </section>
