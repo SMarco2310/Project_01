@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <section class="Banner">
+                <img src ="Ashesi 3.png" alt ="Ashesi logo" width="90" height="90">
+                <h1 class="logo-side">Ashesi Shuttle System</h1>
+            </section>
+              <div class="container" style="display: flex-box;">
+                <ul class ="welcome" style="display: flex;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="SignUp.html">Sign Up</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="UserProfile.html">User Profile</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main></main>
+        <form method="get" action="index.html">
+            <h3>Please enter your Booking details: </h3>
+            <p>
+            <label for="id">ID:</label>
+                <input type="number" id="id" name="pickUp" pattern="[0-9]{8}" required placeholder="Please enter your ID">
+            </p>
+            
+            <p>
+                <h3>Type of Ride</h3>
+                <label for="out">Out Ride:</label>
+                <input type="radio" id="out" name="ride-type" >
+                <label for="in-out">In-Out Ride:</label>
+                <input type="radio" id="in-out" name="ride-type" >
+            </p>
+            <p>
+                
+                <h3>Choose your Pickup Location</h3>
+                <!--Add a Js code to make it able the text 
+                to appear in this h3 element and also make 
+                it possible to chose two location by adding an attribute-->
+                    <label for="pickUp">Pick-up Location:</label>
+                    <select name="destinations" id="pickUp">
+                        <optgroup label="Out-Bound Location (05:00 pm)">
+                            <option value="shell-kwab">SHELL Filing Station - Kwabenya</option>
+                            <option value="atomic-junction">Atomic Junction/Overpass (MELCOM)</option>
+                            <option value="legon">Univ. of Ghana, Legon (Okponglo Exit)</option>
+                            <option value="accra-mall">Accra Mall – Police Post Exit</option>
+                        </optgroup>
+                        <optgroup label="In-Bound Location (04:00 pm)">
+                            <option value="accra-mall">Accra Mall – Police Post Exit</option>
+                            <option value="legon-shell">University of Ghana (SHELL Filing Station)</option>
+                            <option value="ritz-junction">Ritz Junction (Overpass bridge – side park)</option>
+                            <option value="adenta-barrier">Adenta Barrier – Total Filing Station</option>
+                        </optgroup>
+                    </select>
+            </p>
+
+            <button type="submit">Booked</button>
+        </form>
+    </main>
+    <hr>
+    <footer id="footer">
+    <div class="container1">
+
+    </div>
+    <div class="container2">
+        &lt;&lt;&lt;&copy;<a href="#">Shuttle System 2024</a>&gt;&gt;&gt;
+    </div>
+    
+    </footer>
+    
+</body>
+</html>
