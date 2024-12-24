@@ -4,6 +4,7 @@ body{
     font-size: 1.2rem;
     line-height: 1.5;
     color : black;
+    align-content: center;
 }
 
 .login-form,.signup-form{
@@ -15,4 +16,6 @@ body{
     border-radius: 10px;
     max-width: 400px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font: inherit;
+    
 }
