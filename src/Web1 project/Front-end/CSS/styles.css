@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(250, 250, 250, 0.8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color : black;
+}
+
+.login-form,.signup-form{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

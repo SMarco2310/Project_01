@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Login </title>
+<link rel="stylesheet" href="CSS/styles.css">
 <link rel="icon" type="image/png" href="Ashesi 3.png">
 </head>
 <body>
-  <nav class="NavBar">
+  <header class="NavBar">
     <div>
       <menu>
       <!--Add the hanmburger button here-->
@@ -17,7 +18,7 @@
       <h1>Ashesi Shuttle System</h1>
     </div>
 
-    <div class="container1" style="display: flex-box;">
+    <nav class="container1" style="display: flex-box;">
       <ul class ="welcome" style="display: flex;">
           <li><a href="index.html">Home</a></li>
           <li><a href="SignUp.html">Sign Up</a></li>
@@ -26,22 +27,20 @@
           <li><a href="AboutUs.html">About Us</a></li>
 
       </ul>
-  </div>
+    </nav>
+  </header>
 
-    <div>
-      <a>User interactions</a>
-    </div>
-  </nav>
-
-  <div class="LoginForm">
-    <form action="/submit_form" method="post">
+  <main>
+    <form action="/submit_form" method="post" class="login-form">
       <label for="username">Username:</label><br>
       <input type="text" id="username" name="username"><br>
+
       <label for="password">Password:</label><br>
       <input type="password" id="password" name="password"><br>
-      <input type="submit" value="Login">
+
+      <button type="submit">Submit</button>
     </form>
-  </div>
+  </main>
   &lt;&lt;&lt; &copy;December 2024 &gt;&gt;&gt;
 </body>
 </html>

@@ -6,24 +6,76 @@
     <title>User Profile</title>
     <link rel="icon" type="image/png" href="Hello_Icone.png">
     <!-- <link rel="apple-touch-icon" type="image/png"> -->
-     <style>
-        body {
-            font-family:'Courier New', Courier, monospace;
-            height: 100vh;
-            background-color: #252323;
-            color:aliceblue;
-        }
-
-        h1 {
-            text-align: center;
-            padding: 20px;
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-    </style>
+    
 </head>
 <body>
+    <header id="header">
+        <nav class="navbar">
+            <section class="Banner">
+                <img src ="Ashesi 3.png" alt ="Ashesi logo" width="90" height="90">
+                <h1 class="logo-side">Ashesi Shuttle System</h1>
+            </section>
+              <div class="container1" style="display: flex-box;">
+                <ul class ="welcome" style="display: flex;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="SignUp.html">Sign Up</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="UserProfile.html">User Profile</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
     <h1>User Profile</h1>
+    <main class="main-content">
+        <section class="UserProfile">
+            <div class="profile-image">
+                <img src="user.jpg" alt="User profile picture">
+            </div>
+            <div class="profile-info">
+                <h3>Username: <span id="username">John_Doe</span></h3>
+                <h3>Full Name: <span id="username">John Doe</span></h3>
+                <h3>Email: <span id="username">John_Doe@ashesi.gh.edu</span></h3>
+                <h3>Tel: <span id="username">012 345 6789</span></h3>
+            </div>
+        </section>
+
+        <!-- <section class="edit-profile">
+            <h2>Edit Profile</h2>
+            <form id="editForm">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="tel">Tel:</label>
+                    <input type="tel" id="tel" name="tel">
+                </div>
+                <div>
+                    <input type="submit" value="Update">
+                </div>
+            </form>
+        </section> -->
+
+        <!--Edit this code to enable the edit profile functionality-->
+
+        <!--<section> add a hamburger menu to be able to view all the info like the transaction history and the history of the rides 
+            also be able to view our balance and been able to add more <money-->
+            
+        <!-- <section class="history">
+            <h2>Transaction History</h2>
+            \end{code}
+        </section> -->
+    </main>
 </body>
 </html>
